@@ -42,9 +42,5 @@ def load_saved_artifacts():
 if __name__ == '__main__':
     load_saved_artifacts()
     print(get_location_names())
-    print(get_estimated_price('1st Phase JP Nagar', 1875, 3, 0))
-    print(get_estimated_price('1st Phase JP Nagar', 1875, 2, 1))
-    print(get_estimated_price('Munich', 1394, 2, 1))
-    print(get_estimated_price('Deggendorf', 1394, 2, 1))
-
-    
+    print(get_estimated_price('1st block Jayanagar', 1875, 3, 0))
+    #print(get_estimated_price('1st Phase JP Nagar', 3875, 5, 0))
