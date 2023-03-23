@@ -12,15 +12,15 @@
 ## Data Cleaning
 Before building a regression model, I needed to clean and preprocess the data to ensure that it was accurate and consistent. Here are the steps I took:
 
-* Imputing Missing Values: I used mean imputation to fill in the missing values in the 'balcony' column.
-* Fixing Inconsistent Data Entry: The 'total_sqft' column had inconsistent data entries, including ranges and different measuring units. I fixed this issue by:
+* Used mean imputation to fill in the missing values in the 'balcony' column.
+* Fixed Inconsistent Data Entry in the 'total_sqft' column by: 
     * Replacing the range with the average of the min and max values.
     * Converting other measuring units to square feet.
-* Outlier Removal : To remove outliers and improve the accuracy of our model, we added two new columns:
+* Removed outliers and improved the accuracy of the model by adding two new columns:
     * 'price_per_sqft'
     * 'total_sqft_per_bedroom'
-* Adding Columns for Bedroom Count and Move-In Readiness
-* Reducing Location Categories: To reduce the number of categories in the 'location' column, I labeled any location with less than 10 data points as 'other'. This helped to simplify our model and reduce the risk of overfitting.
+* Added Columns for Bedroom Count and Move-In Readiness
+* Reduced the number of categories in the 'location' column by labelling any location with less than 10 data points as 'other'.
 
 ## EDA
 I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights from the pivot tables. 
