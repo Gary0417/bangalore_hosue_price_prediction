@@ -7,8 +7,6 @@
 **Python Version:** 3.11  
 **Packages:** pandas, numpy, sklearn, matplotlib, seaborn, flask, json, pickle
 **Flask Productionization:** https://youtu.be/Q5JyawS8f5Q?list=PLeo1K3hjS3ut2o1ay5Dqh-r1kq6ZU8W0M&t=1
-
-
 ## Data Cleaning
 Before building a regression model, I needed to clean and preprocess the data to ensure that it was accurate and consistent. Here are the steps I took:
 
