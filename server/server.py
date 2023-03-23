@@ -16,7 +16,7 @@ def get_location_names():
 def predict_home_price():
     
     total_sqft = float(request.form['total_sqft'])
-    location = request.form['location']
+    location = request.form['location'] 
     bedroom = int(request.form['bedroom'])
     ready_to_move = int(request.form['ready_to_move'])
     

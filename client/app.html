@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bangalore House Price Prediction</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="app.js"></script>
+        <link rel="stylesheet" href="app.css">
+    </head>
+
+    <body>
+        <div class="img"></div>
+        <form class="form">
+            <h2>Area (Square Feet)</h2>
+            <input class="area" type="text" id="uiSqft" class="floatLabel" name="Squareft" placeholder="Area">
+            <h2>Number of bedroom</h2>
+            <input type="number" id="uiBedroom" name="bedroom" min="1" max="50", value="1">
+        </form>
+
+        <form class="form">
+            <h2>Is the house move-in ready?</h2>
+            <div class="switch-field">
+                <input type="radio" id="radio-yes" name="uiReadyToMove" value = "1" checked />
+                <label for="radio-yes">Yes</label>
+                <input type="radio" id="radio-no" name="uiReadyToMove" value = "0"/>
+                <label for="radio-no">No</label>
+            </div>
+            <h2>Location</h2>
+            <div>
+                <select class="location" name="" id="uiLocations">
+                    <option value="" disabled="disabled" selected="selected">Choose a Location</option>
+                    <option>Electronic City</option>
+                    <option>Rajaji Nagar</option>
+                </select>
+            </div>
+            <button class="submit" onclick="onClickedEstimatePrice()" type="button">Estimate Price</button>
+            <div id="uiEstimatedPrice" class="result">	<h2></h2> </div>
+    </body>
+</html>
