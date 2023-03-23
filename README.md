@@ -16,12 +16,10 @@ Before building a regression model, I needed to clean and preprocess the data to
 * Fixing Inconsistent Data Entry: The 'total_sqft' column had inconsistent data entries, including ranges and different measuring units. I fixed this issue by:
     * Replacing the range with the average of the min and max values.
     * Converting other measuring units to square feet.
-* Adding New Columns: To remove outliers and improve the accuracy of our model, we added two new columns:
-    * 'price_per_sqft': This column calculates the price per square foot for each house, which helps to identify houses with unusually high or low prices.
-    * 'total_sqft_per_bedroom': This column calculates the total square feet per bedroom, which helps to identify houses with unusually small or large bedrooms.
-* Adding Columns for Bedroom Count and Move-In Readiness: I added two additional columns to provide more information for our model:
-    * 'bedrooms': This column indicates the number of bedrooms in each house.
-    * 'ready_to_move': This column indicates whether a house is move-in ready or not.
+* Outlier Removal : To remove outliers and improve the accuracy of our model, we added two new columns:
+    * 'price_per_sqft'
+    * 'total_sqft_per_bedroom'
+* Adding Columns for Bedroom Count and Move-In Readiness
 * Reducing Location Categories: To reduce the number of categories in the 'location' column, I labeled any location with less than 10 data points as 'other'. This helped to simplify our model and reduce the risk of overfitting.
 
 ## EDA
