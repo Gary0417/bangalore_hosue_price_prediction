@@ -24,12 +24,14 @@ Before building a regression model, I needed to clean and preprocess the data to
 
 ## EDA
 I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights.
+#### Correlations
+![alt text](https://github.com/Gary0417/bangalore_hosue_price_prediction/blob/documentation/images/correlation_visual.png "Correlations")
 
 | Top 10 locations with the highest price | Top 10 locations with the lowest price |
 |-----------------------------------------|----------------------------------------|
 | <img src="https://github.com/Gary0417/bangalore_hosue_price_prediction/blob/documentation/images/top_10_locations_with_highest_price.png" alt="Top 10 locations with the highest price" width="400"/> | <img src="https://github.com/Gary0417/bangalore_hosue_price_prediction/blob/documentation/images/top_10_locations_with_lowest_price.png" alt="Top 10 locations with the lowest price" width="400"/> |
 |<img src="https://github.com/Gary0417/bangalore_hosue_price_prediction/blob/documentation/images/price_by_ready_to_move.png" alt="Price by Move-in Readiness" width="400"/>| <img src="https://github.com/Gary0417/bangalore_hosue_price_prediction/blob/documentation/images/total_sqft_vs_price.png" alt="Total Square Feet vs Price" width="400"/>
-![alt text](https://github.com/Gary0417/bangalore_hosue_price_prediction/blob/documentation/images/correlation_visual.png "Correlations")
+
 
 
 ## Model Building 
