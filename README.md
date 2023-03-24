@@ -30,6 +30,11 @@ I looked at the distributions of the data and the value counts for the various c
 ![alt text](https://github.com/Gary0417/bangalore_hosue_price_prediction/blob/documentation/images/total_sqft_vs_price.png "Total Square Feet vs House Price")
 ![alt text](https://github.com/Gary0417/bangalore_hosue_price_prediction/blob/documentation/images/correlation_visual.png "Correlations")
 
+| Column 1 | Column 2 |
+|----------|----------|
+| <img src="https://github.com/Gary0417/bangalore_hosue_price_prediction/blob/documentation/images/price_by_location.png" alt="House Price by Location" width="400"/> | <img src="https://github.com/Gary0417/bangalore_hosue_price_prediction/blob/documentation/images/price_by_ready_to_move.png" alt="House Price by Move-in Readiness" width="400"/> |
+
+
 ## Model Building 
 
 First, I transformed the categorical variables into dummy variables. I also split the data into train and tests sets with a test size of 20%.   
