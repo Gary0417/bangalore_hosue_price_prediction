@@ -25,7 +25,7 @@ Before building a regression model, I needed to clean and preprocess the data to
 ## EDA
 I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights.
 #### Correlations
-![alt text](https://github.com/Gary0417/bangalore_hosue_price_prediction/blob/documentation/images/correlation_visual.png "Correlations"){:height="50%" width="50%"}
+<img src="https://github.com/Gary0417/bangalore_hosue_price_prediction/blob/documentation/images/correlation_visual.png"  width="400" height="400">
 
 | Top 10 locations with the highest price | Top 10 locations with the lowest price |
 |-----------------------------------------|----------------------------------------|
