@@ -5,27 +5,30 @@
 
 ## Code and Resources Used 
 **Python Version:** 3.11  
-**Packages:** pandas, numpy, sklearn, matplotlib, seaborn, flask, json, pickle
+**Packages:** pandas, numpy, sklearn, matplotlib, seaborn, re, flask, json, pickle
 **Flask Productionization:** https://youtu.be/Q5JyawS8f5Q?list=PLeo1K3hjS3ut2o1ay5Dqh-r1kq6ZU8W0M&t=1
+
+
 ## Data Cleaning
 Before building a regression model, I needed to clean and preprocess the data to ensure that it was accurate and consistent. Here are the steps I took:
 
-* Used mean imputation to fill in the missing values in the 'balcony' column.
-* Fixed Inconsistent Data Entry in the 'total_sqft' column by: 
-    * Replacing the range with the average of the min and max values.
-    * Converting other measuring units to square feet.
-* Removed outliers and improved the accuracy of the model by adding two new columns:
-    * 'price_per_sqft'
-    * 'total_sqft_per_bedroom'
-* Added Columns for Bedroom Count and Move-In Readiness
-* Reduced the number of categories in the 'location' column by labelling any location with less than 10 data points as 'other'.
+* Used mean imputation to fill in the missing values in the 'balcony' column
+* Removed column with high percentage of missing values
+* Fixed inconsistent data entry in the 'total_sqft' column by: 
+    * Replacing the range with the average of the min and max values
+    * Converting other measuring units to square feet
+* Transformed 'size' to bedroom count
+* Transformed 'availability' to move-in readiness
+* Added two columns 'price_per_sqft' and 'total_sqft_per_bedroom to remove outliers
+* Reduced the number of categories in the 'location' column by labelling any location with less than 10 data points as 'other'
 
 ## EDA
-I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights from the pivot tables. 
+I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights.
 
-![alt text](https://github.com/PlayingNumbers/ds_salary_proj/blob/master/salary_by_job_title.PNG "Salary by Position")
-![alt text](https://github.com/PlayingNumbers/ds_salary_proj/blob/master/positions_by_state.png "Job Opportunities by State")
-![alt text](https://github.com/PlayingNumbers/ds_salary_proj/blob/master/correlation_visual.png "Correlations")
+![alt text](https://github.com/Gary0417/bangalore_hosue_price_prediction/blob/documentation/images/price_by_location.png "House Price by Location")
+![alt text](https://github.com/Gary0417/bangalore_hosue_price_prediction/blob/documentation/images/price_by_ready_to_move.png "House Price by Move-in Readiness")
+![alt text](https://github.com/Gary0417/bangalore_hosue_price_prediction/blob/documentation/images/total_sqft_vs_price.png "Total Square Feet vs House Price")
+![alt text](https://github.com/Gary0417/bangalore_hosue_price_prediction/blob/documentation/images/correlation_visual.png "Correlations")
 
 ## Model Building 
 
