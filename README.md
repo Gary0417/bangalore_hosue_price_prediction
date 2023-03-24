@@ -6,6 +6,7 @@
 ## Code and Resources Used 
 **Python Version:** 3.11  
 **Packages:** pandas, numpy, sklearn, matplotlib, seaborn, re, flask, json, pickle  
+**For Web Framework Requirements:**  ```pip install -r requirements.txt```  
 **Flask Productionization:** https://youtu.be/Q5JyawS8f5Q?list=PLeo1K3hjS3ut2o1ay5Dqh-r1kq6ZU8W0M&t=1
 
 
