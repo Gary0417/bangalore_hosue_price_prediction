@@ -31,7 +31,7 @@ I looked at the distributions of the data and the value counts for the various c
 |-----------------------------------------|----------------------------------------|
 | <img src="https://github.com/Gary0417/bangalore_hosue_price_prediction/blob/documentation/images/top_10_locations_with_highest_price.png" alt="Top 10 locations with the highest price" width="300"/> | <img src="https://github.com/Gary0417/bangalore_hosue_price_prediction/blob/documentation/images/top_10_locations_with_lowest_price.png" alt="Top 10 locations with the lowest price" width="360"/> |
 | Price by Move-in Readiness | Total Square Feet vs Price |
-|<img src="https://github.com/Gary0417/bangalore_hosue_price_prediction/blob/documentation/images/price_by_ready_to_move.png" alt="Price by Move-in Readiness" width="400" height="420"/>| <img src="https://github.com/Gary0417/bangalore_hosue_price_prediction/blob/documentation/images/total_sqft_vs_price.png" alt="Total Square Feet vs Price" width="400"/>
+|<img src="https://github.com/Gary0417/bangalore_hosue_price_prediction/blob/documentation/images/price_by_ready_to_move.png" alt="Price by Move-in Readiness" width="400" height="400"/>| <img src="https://github.com/Gary0417/bangalore_hosue_price_prediction/blob/documentation/images/total_sqft_vs_price.png" alt="Total Square Feet vs Price" width="400"/>
 
 
 
