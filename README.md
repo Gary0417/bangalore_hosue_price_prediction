@@ -58,7 +58,7 @@ In this step, I exported the trained machine learning model into a pickle file a
 
 In addition to the server, I also built a website using HTML, CSS, and JavaScript, which allows users to interact with the model and make predictions on home prices. The website makes HTTP GET and POST requests to the Flask server, allowing users to input the necessary data and receive an estimated home price in response.
 
-<img src="https://github.com/Gary0417/bangalore_hosue_price_prediction/blob/documentation/images/website_ui.png"  width="400" height="400">
+<img src="https://github.com/Gary0417/bangalore_hosue_price_prediction/blob/main/images/website_ui.png"  width="400" height="400">
 
 
 
