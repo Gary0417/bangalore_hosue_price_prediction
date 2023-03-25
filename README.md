@@ -1,7 +1,7 @@
 # Bangalore House Price Prediction: Project Overview
 * Created a tool that estimates house prices in Bangalore, India, to help buyers and sellers make informed decisions.
 * Optimized Random Forest Regressors using RandomizedSearchCV to achieve the best possible performance. 
-* Built a client-facing API using flask which allows users to input the features of a house (such as location, size, and number of bedrooms) and get an estimated price. 
+* Built a client-facing API using flask and a website using HTML, CSS, and JavaScript which allows users to input the features of a house (such as location, size, and number of bedrooms) and get an estimated price. 
 
 ## Code and Resources Used 
 **Python Version:** 3.10  
