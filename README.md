@@ -4,7 +4,7 @@
 * Built a client-facing API using flask which allows users to input the features of a house (such as location, size, and number of bedrooms) and get an estimated price. 
 
 ## Code and Resources Used 
-**Python Version:** 3.11  
+**Python Version:** 3.10  
 **Packages:** pandas, numpy, sklearn, matplotlib, seaborn, re, flask, json, pickle  
 **For Web Framework Requirements:**  ```pip install -r requirements.txt```  
 **Flask Productionization:** https://youtu.be/Q5JyawS8f5Q?list=PLeo1K3hjS3ut2o1ay5Dqh-r1kq6ZU8W0M&t=1
